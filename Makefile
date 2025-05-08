@@ -23,3 +23,6 @@ run: venv libcrc.so vcs_tls.so main.py test.py
 
 waves:
 	dve -vpd inter.vpd
+
+clean:
+	rm -rf vcs_tls.so libcrc.so* simv* venv csrc inter.vpd ucli.key
